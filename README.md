@@ -28,9 +28,9 @@ Status checked October 12, 2026. Linked GitHub records contain the current statu
 | --- | --- | --- |
 | [Publish evidence-backed portfolio projects](https://github.com/lenovo-jojo/portfolio/issues/1) | Completed | [Synthetic workbook checks](https://github.com/lenovo-jojo/portfolio/issues/3) and [reviewer guide/profile verification](https://github.com/lenovo-jojo/portfolio/issues/4) |
 | [Separate the companion core from optional private content](https://github.com/lenovo-jojo/portfolio/issues/2) | Open | [Visible demo and playback verification](https://github.com/lenovo-jojo/portfolio/issues/6) remain |
-| Catalog Transfer Spreadsheet Review — validate transfer scope | Proposed; not assigned to a sprint | Define partial/full rules and report fields, then implement evidence-backed results and synthetic checks |
+| Catalog Transfer Spreadsheet Review — validate transfer scope | Implemented; Windows verification pending | Implemented work-level classification and four-column export; Windows runtime verification pending |
 
-The transfer-validation epic is planned work. The current tool extracts unique claimants from affirmative rows; partial/full validation is not implemented. No additional sprint has been scheduled.
+The transfer rules were confirmed with the workflow owner: all Yes means full, any No means partial, and blanks are ignored. The owner estimates personal daily capacity improved from roughly 5 to 20 transfers when needed; this is not a controlled benchmark or a team-wide measurement. No additional sprint has been scheduled.
 
 ## Authorship
 
