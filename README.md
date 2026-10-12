@@ -8,6 +8,8 @@ I build practical tools and playful interactive experiences. This portfolio conn
 - **[Jolie’s Virtual Picnic](https://github.com/lenovo-jojo/neocities-practice):** an AI-assisted HTML/CSS/JavaScript practice site. [Visit Neocities](https://joliesarro.neocities.org/).
 - **[JARVIS / Critter Comforts](case-studies/companion-evolution.md):** the engineering story of a companion project across several forms, with current evidence and gaps clearly identified.
 
+[Take a quick reviewer tour](reviewer-guide.md).
+
 ## Delivery process
 
 This repository tracks a real portfolio-publication sprint begun October 12, 2026. Older work is described retrospectively, not presented as previously completed formal sprints.
