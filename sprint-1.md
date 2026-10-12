@@ -10,12 +10,13 @@
 - Compiled the Swift implementation and passed three end-to-end synthetic-data checks on October 12: filtering/deduplication/CSV escaping; no matches; unsupported file type.
 - Added a conditional FoundationXML import for macOS compatibility and a no-clipboard option for automated checks.
 - Published a source snapshot and implementation review for the Neocities practice site.
-- Wrote a companion evolution case study with explicit evidence gaps.
+- Published a cleaned Unity core and recovered browser/Python iterations with explicit evidence gaps. Browser typecheck/build and three dialogue-logic checks pass locally and in GitHub Actions.
+- Verified Unity pose discovery without private content (18 poses) and with it installed (27 poses).
 - Prepared a profile README that links selected work and explains AI assistance.
 
 ## Scope remaining in this timebox
 
-- Complete optional-content separation and verify JARVIS with and without private content.
+- Verify full avatar/scene playback beyond the completed optional-content discovery checks.
 - Collect demonstrable companion/browser runtime evidence.
 - Check Neocities keyboard navigation, focus behavior, and narrow-screen layout.
 - Verify the Windows Claimants implementation on Windows with desktop Excel.

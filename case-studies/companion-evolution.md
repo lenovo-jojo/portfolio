@@ -9,15 +9,15 @@ Explore a companion that feels present in an interactive environment, rather tha
 | Iteration | Direction | Evidence and status |
 | --- | --- | --- |
 | Desktop pet | A companion that lives alongside everyday computer use | Part of my project history; the original source/demo is still being located. |
-| GameCube dialogue mod | Connect model-generated dialogue to Animal Crossing in Dolphin | Python source includes dialogue parsing/encoding, memory readers, conversation-state tracking, and a choice-menu injection test. Source publication is undergoing cleanup; an end-to-end emulator demo has not been verified in this portfolio pass. |
-| JavaScript / browser | Explore a companion/world through web technologies | A project iteration; the exact source and deployable demo are still being organized. The separate Neocities site demonstrates my web experimentation. |
-| Unity / JARVIS | A local-first 3D companion prototype using C#, VRM avatars, and an OpenAI-compatible local endpoint | Source inspection confirms service separation for model requests, avatar backends, voice, UI, camera, and memory. Source publication and a repeatable demonstration remain in progress. |
+| GameCube dialogue mod | Connect model-generated dialogue to Animal Crossing in Dolphin | Python source includes dialogue parsing/encoding, memory readers, conversation-state tracking, and a choice-menu injection test. [Recovered Python source and three passing dialogue checks](https://github.com/lenovo-jojo/Jarvis/tree/main/examples/gamecube-dialogue) are public. An end-to-end emulator demo has not been verified in this portfolio pass. |
+| JavaScript / browser | Explore a companion/world through web technologies | [Recovered Three.js/TypeScript source](https://github.com/lenovo-jojo/Jarvis/tree/main/examples/browser-world) is public and passes typecheck and production build. It includes player/camera controllers, procedural world modules, and authored scene data. Runtime rendering still needs separate verification. |
+| Unity / JARVIS | A local-first 3D companion prototype using C#, VRM avatars, and an OpenAI-compatible local endpoint | [Public Unity source](https://github.com/lenovo-jojo/Jarvis) imports and compiles. Pose-discovery checks found 18 standard poses without optional content and 27 with it installed. Original personal avatars are excluded; full scene playback remains unverified. |
 
 ## An engineering decision: optional content boundaries
 
-As the prototype grew, optional content became coupled to core pose loading. I am separating optional private assets from the public core so a public checkout can work without private dependencies. This requires dependency review, preserving Unity asset GUIDs, checking both configurations, and cleaning historical content before publication.
+As the prototype grew, optional content became coupled to core pose loading. I separated the inspected optional pose pack from the public core, preserved its metadata and verified copies privately, and replaced the hardcoded pack location with a generic optional-content path. Both pose-discovery configurations were checked in Unity. Original models and historical private material remain outside the public repository.
 
-That work is tracked as an ongoing epic. It is not claimed as a completed or runtime-verified feature.
+The remaining epic work is a visible avatar/scene demonstration and a complete standalone-player add-on workflow. Discovery and compilation are verified; full animation playback is not.
 
 ## My role
 
@@ -25,4 +25,4 @@ I originated and directed the companion experience, iterated on product and scen
 
 ## What this demonstrates
 
-The project provides material for discussing integration boundaries, stateful interactions, avatar/animation backends, local service configuration, and how prototypes inform later design choices. A technical reviewer should distinguish inspected source from demonstrated runtime behavior; more runtime evidence is being prepared.
+The project provides material for discussing integration boundaries, stateful interactions, avatar/animation backends, local service configuration, and how prototypes inform later design choices. A technical reviewer should distinguish inspected source from demonstrated runtime behavior; more runtime evidence is being prepared. [The source-example CI passed](https://github.com/lenovo-jojo/Jarvis/actions/runs/38209453135).
