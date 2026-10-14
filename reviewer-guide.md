@@ -2,11 +2,11 @@
 
 ## start with a practical tool
 
-[catalog transfer spreadsheet review](https://github.com/lenovo-jojo/claimants-with-yes) turns a catalog-transfer report into a unique claimant table.
+[catalog transfer spreadsheet review](https://github.com/lenovo-jojo/catalog-transfer-spreadsheet-review) turns a catalog-transfer report into a unique claimant table.
 
-- inspect [`processworkbook`](https://github.com/lenovo-jojo/claimants-with-yes/blob/main/src/claimants.swift) for the complete input-to-output flow.
-- inspect the [synthetic checks](https://github.com/lenovo-jojo/claimants-with-yes/blob/main/tests/test_workbook.py) for concrete filtering and output expectations.
-- see the [successful github actions run](https://github.com/lenovo-jojo/claimants-with-yes/actions/runs/38208097315).
+- inspect [`processworkbook`](https://github.com/lenovo-jojo/catalog-transfer-spreadsheet-review/blob/main/src/claimants.swift) for the complete input-to-output flow.
+- inspect the [synthetic checks](https://github.com/lenovo-jojo/catalog-transfer-spreadsheet-review/blob/main/tests/test_workbook.py) for concrete filtering and output expectations.
+- see the [successful github actions run](https://github.com/lenovo-jojo/catalog-transfer-spreadsheet-review/actions/runs/38208097315).
 - the windows source is included, but windows execution is not claimed as verified.
 
 ## then explore the creative work
