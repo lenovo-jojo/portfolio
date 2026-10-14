@@ -1,32 +1,32 @@
-# Sprint 1 — portfolio foundation
+# sprint 1 — portfolio foundation
 
-**Started:** October 12, 2026. **Timebox:** October 12–18, 2026.
+**started:** october 12, 2026. **timebox:** october 12–18, 2026.
 
-**Goal:** make three projects understandable to a hiring reviewer, backed by inspectable source, honest case studies, and verification evidence.
+**goal:** make three projects understandable to a hiring reviewer, backed by inspectable source, honest case studies, and verification evidence.
 
-## Delivered evidence
+## delivered evidence
 
-- Recovered the August 3 Claimants utility rather than substituting an invented project.
-- Compiled the Swift implementation and passed three end-to-end synthetic-data checks on October 12: filtering/deduplication/CSV escaping; no matches; unsupported file type.
-- Added a conditional FoundationXML import for macOS compatibility and a no-clipboard option for automated checks.
-- Published a source snapshot and implementation review for the Neocities practice site.
-- Published a cleaned Unity core and recovered browser/Python iterations with explicit evidence gaps. Browser typecheck/build and three dialogue-logic checks pass locally and in GitHub Actions.
-- Verified Unity pose discovery without private content (18 poses) and with it installed (27 poses).
-- Prepared a profile README that links selected work and explains AI assistance.
+- recovered the august 3 claimants utility rather than substituting an invented project.
+- compiled the swift implementation and passed three end-to-end synthetic-data checks on october 12: filtering/deduplication/csv escaping; no matches; unsupported file type.
+- added a conditional foundationxml import for macos compatibility and a no-clipboard option for automated checks.
+- published a source snapshot and implementation review for the neocities practice site.
+- published a cleaned unity core and recovered browser/python iterations with explicit evidence gaps. browser typecheck/build and three dialogue-logic checks pass locally and in github actions.
+- verified unity pose discovery without private content (18 poses) and with it installed (27 poses).
+- prepared a profile readme that links selected work and explains ai assistance.
 
-## Scope remaining in this timebox
+## scope remaining in this timebox
 
-- Verify full avatar/scene playback beyond the completed optional-content discovery checks.
-- Collect demonstrable companion/browser runtime evidence.
-- Check Neocities keyboard navigation, focus behavior, and narrow-screen layout.
-- Verify the Windows Claimants implementation on Windows with desktop Excel.
+- verify full avatar/scene playback beyond the completed optional-content discovery checks.
+- collect demonstrable companion/browser runtime evidence.
+- check neocities keyboard navigation, focus behavior, and narrow-screen layout.
+- verify the windows claimants implementation on windows with desktop excel.
 
-## Review notes
+## review notes
 
-This is solo delivery, with AI assistance. It does not imply a Scrum team, previous formal sprints, or external peer approval. Issues and PRs track current work; original project work is described retrospectively.
+this is solo delivery, with ai assistance. it does not imply a scrum team, previous formal sprints, or external peer approval. issues and prs track current work; original project work is described retrospectively.
 
-## Retrospective so far
+## retrospective so far
 
-Recovering original files provided stronger evidence than reconstructing projects from memory. Compilation exposed a real platform mismatch. The next process improvement is to start each project with reproducible checks and clearly separate local working content from material intended for publication.
+recovering original files provided stronger evidence than reconstructing projects from memory. compilation exposed a real platform mismatch. the next process improvement is to start each project with reproducible checks and clearly separate local working content from material intended for publication.
 
-Sprint remains open; the remaining scope is not marked done.
+sprint remains open; the remaining scope is not marked done.

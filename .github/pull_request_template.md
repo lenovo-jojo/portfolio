@@ -1,9 +1,9 @@
-## Problem and resulting behavior
+## problem and resulting behavior
 
-## Related issue
+## related issue
 
-## Verification
+## verification
 
-Checks performed, results, and demo evidence:
+checks performed, results, and demo evidence:
 
-## Known limitations
+## known limitations

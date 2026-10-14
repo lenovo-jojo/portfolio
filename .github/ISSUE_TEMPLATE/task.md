@@ -1,26 +1,26 @@
 ---
-name: Delivery task
-about: A scoped task with observable acceptance criteria
+name: delivery task
+about: a scoped task with observable acceptance criteria
 title: ""
 labels: ""
 assignees: ""
 ---
 
-## Outcome
+## outcome
 
-What will a user or reviewer be able to do?
+what will a user or reviewer be able to do?
 
-## Parent epic
+## parent epic
 
-Link:
+link:
 
-## Acceptance criteria
+## acceptance criteria
 
-- [ ] Observable result
-- [ ] Relevant verification recorded
+- [ ] observable result
+- [ ] relevant verification recorded
 
-## Scope and dependencies
+## scope and dependencies
 
-## Evidence
+## evidence
 
-PR, demo, screenshot, or check result:
+pr, demo, screenshot, or check result:

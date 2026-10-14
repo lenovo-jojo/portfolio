@@ -1,37 +1,37 @@
-# Jojo — creative technologist & indie developer
+# jojo — creative technologist & indie developer
 
-I build practical tools and playful interactive experiences. This portfolio connects the work to the problem it addresses, my role, implementation choices, and evidence.
+i build practical tools and playful interactive experiences. this portfolio connects the work to the problem it addresses, my role, implementation choices, and evidence.
 
-## Selected work
+## selected work
 
-- **[Catalog Transfer Spreadsheet Review](https://github.com/lenovo-jojo/claimants-with-yes):** a desktop catalog-transfer tool that filters affirmative rows and extracts unique claimant records. Swift and PowerShell source; automated checks use synthetic data.
-- **[Jolie’s Virtual Picnic](https://github.com/lenovo-jojo/neocities-practice):** an AI-assisted HTML/CSS/JavaScript practice site. [Visit Neocities](https://joliesarro.neocities.org/).
-- **[JARVIS / Critter Comforts](case-studies/companion-evolution.md):** the engineering story of a companion project across several forms, with current evidence and gaps clearly identified.
+- **[catalog transfer spreadsheet review](https://github.com/lenovo-jojo/claimants-with-yes):** a desktop catalog-transfer tool that filters affirmative rows and extracts unique claimant records. swift and powershell source; automated checks use synthetic data.
+- **[jolie’s virtual picnic](https://github.com/lenovo-jojo/neocities-practice):** an ai-assisted html/css/javascript practice site. [visit neocities](https://joliesarro.neocities.org/).
+- **[jarvis / critter comforts](case-studies/companion-evolution.md):** the engineering story of a companion project across several forms, with current evidence and gaps clearly identified.
 
-[Take a quick reviewer tour](reviewer-guide.md).
+[take a quick reviewer tour](reviewer-guide.md).
 
-## Delivery process
+## delivery process
 
-This repository tracks a real portfolio-publication sprint begun October 12, 2026. Older work is described retrospectively, not presented as previously completed formal sprints.
+this repository tracks a real portfolio-publication sprint begun october 12, 2026. older work is described retrospectively, not presented as previously completed formal sprints.
 
-[Open issues](https://github.com/lenovo-jojo/portfolio/issues) record epics, acceptance criteria, and deliverables. [Sprint 1](sprint-1.md) records the goal, verified outcomes, and follow-up work. Pull requests show reviewable changes and validation.
+[open issues](https://github.com/lenovo-jojo/portfolio/issues) record epics, acceptance criteria, and deliverables. [sprint 1](sprint-1.md) records the goal, verified outcomes, and follow-up work. pull requests show reviewable changes and validation.
 
-## Sprints and epics
+## sprints and epics
 
-Status checked October 12, 2026. Linked GitHub records contain the current status.
+status checked october 12, 2026. linked github records contain the current status.
 
-| Sprint | Dates | Goal | Status |
+| sprint | dates | goal | status |
 | --- | --- | --- | --- |
-| [Sprint 1 — Portfolio foundation](https://github.com/lenovo-jojo/portfolio/milestone/1) | October 12–18, 2026 | Publish inspectable project evidence and a reviewer guide | Open; [delivery and remaining work](sprint-1.md) |
+| [sprint 1 — portfolio foundation](https://github.com/lenovo-jojo/portfolio/milestone/1) | october 12–18, 2026 | publish inspectable project evidence and a reviewer guide | open; [delivery and remaining work](sprint-1.md) |
 
-| Epic | Status | Evidence or next step |
+| epic | status | evidence or next step |
 | --- | --- | --- |
-| [Publish evidence-backed portfolio projects](https://github.com/lenovo-jojo/portfolio/issues/1) | Completed | [Synthetic workbook checks](https://github.com/lenovo-jojo/portfolio/issues/3) and [reviewer guide/profile verification](https://github.com/lenovo-jojo/portfolio/issues/4) |
-| [Separate the companion core from optional private content](https://github.com/lenovo-jojo/portfolio/issues/2) | Open | [Visible demo and playback verification](https://github.com/lenovo-jojo/portfolio/issues/6) remain |
-| Catalog Transfer Spreadsheet Review — validate transfer scope | Implemented; Windows verification pending | Implemented work-level classification and four-column export; Windows runtime verification pending |
+| [publish evidence-backed portfolio projects](https://github.com/lenovo-jojo/portfolio/issues/1) | completed | [synthetic workbook checks](https://github.com/lenovo-jojo/portfolio/issues/3) and [reviewer guide/profile verification](https://github.com/lenovo-jojo/portfolio/issues/4) |
+| [separate the companion core from optional private content](https://github.com/lenovo-jojo/portfolio/issues/2) | open | [visible demo and playback verification](https://github.com/lenovo-jojo/portfolio/issues/6) remain |
+| catalog transfer spreadsheet review — validate transfer scope | implemented; windows verification pending | implemented work-level classification and four-column export; windows runtime verification pending |
 
-The transfer rules were confirmed with the workflow owner: all Yes means full, any No means partial, and blanks are ignored. The owner estimates personal daily capacity improved from roughly 5 to 20 transfers when needed; this is not a controlled benchmark or a team-wide measurement. No additional sprint has been scheduled.
+the transfer rules were confirmed with the workflow owner: all yes means full, any no means partial, and blanks are ignored. the owner estimates personal daily capacity improved from roughly 5 to 20 transfers when needed; this is not a controlled benchmark or a team-wide measurement. no additional sprint has been scheduled.
 
-## Authorship
+## authorship
 
-These projects were developed with substantial AI assistance. I supplied the ideas, workflow requirements, design direction, and iteration decisions. Repository notes distinguish recovered source, newly added checks, and behavior that still needs runtime verification. I do not claim team leadership, production adoption, or measured business impact without evidence.
+these projects were developed with substantial ai assistance. i supplied the ideas, workflow requirements, design direction, and iteration decisions. repository notes distinguish recovered source, newly added checks, and behavior that still needs runtime verification. i do not claim team leadership, production adoption, or measured business impact without evidence.
