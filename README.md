@@ -5,7 +5,7 @@ i build practical tools and playful interactive experiences. this portfolio conn
 ## selected work
 
 - **[catalog transfer spreadsheet review](https://github.com/lenovo-jojo/catalog-transfer-spreadsheet-review):** a desktop catalog-transfer tool that filters affirmative rows and extracts unique claimant records. swift and powershell source; automated checks use synthetic data.
-- **[jolie’s virtual picnic](https://github.com/lenovo-jojo/neocities-practice):** an ai-assisted html/css/javascript practice site. [visit neocities](https://joliesarro.neocities.org/).
+- **[jolie’s virtual picnic](https://github.com/lenovo-jojo/critter-comforts-digi-picnic):** an ai-assisted html/css/javascript practice site. [visit neocities](https://joliesarro.neocities.org/).
 - **[jarvis / critter comforts](case-studies/companion-evolution.md):** the engineering story of a companion project across several forms, with current evidence and gaps clearly identified.
 
 [take a quick reviewer tour](reviewer-guide.md).

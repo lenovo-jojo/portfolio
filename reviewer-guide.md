@@ -11,7 +11,7 @@
 
 ## then explore the creative work
 
-[the neocities site](https://joliesarro.neocities.org/) demonstrates an interactive web composition. its [source snapshot and review](https://github.com/lenovo-jojo/neocities-practice) explain the implementation and accessibility work still to do.
+[the neocities site](https://joliesarro.neocities.org/) demonstrates an interactive web composition. its [source snapshot and review](https://github.com/lenovo-jojo/critter-comforts-digi-picnic) explain the implementation and accessibility work still to do.
 
 [the companion case study](case-studies/companion-evolution.md) explains jarvis / critter comforts across iterations. it clearly marks source and runtime evidence that is still being collected.
 
