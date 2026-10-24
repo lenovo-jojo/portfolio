@@ -1,37 +1,23 @@
 # jojo — creative technologist & indie developer
 
-i build practical tools and playful interactive experiences. this portfolio connects the work to the problem it addresses, my role, implementation choices, and evidence.
+i build practical tools and playful interactive things. this repo is the map: what each project is, where to look, and how i plan and track the work.
 
 ## selected work
 
-- **[spreadsheet-review · catalog transfer](https://github.com/lenovo-jojo/spreadsheet-review):** a desktop catalog-transfer tool that filters affirmative rows and extracts unique claimant records. swift and powershell source; automated checks use synthetic data.
-- **[jolie’s virtual picnic](https://github.com/lenovo-jojo/critter-comforts-digi-picnic):** an ai-assisted html/css/javascript practice site. [visit neocities](https://joliesarro.neocities.org/).
-- **[jarvis / critter comforts](case-studies/companion-evolution.md):** the engineering story of a companion project across several forms, with current evidence and gaps clearly identified.
-
-[take a quick reviewer tour](reviewer-guide.md).
-
-## delivery process
-
-this repository tracks a real portfolio-publication sprint begun october 12, 2026. older work is described retrospectively, not presented as previously completed formal sprints.
-
-[open issues](https://github.com/lenovo-jojo/portfolio/issues) record epics, acceptance criteria, and deliverables. [sprint 1](sprint-1.md) records the goal, verified outcomes, and follow-up work. pull requests show reviewable changes and validation.
-
-## sprints and epics
-
-status checked october 12, 2026. linked github records contain the current status.
-
-| sprint | dates | goal | status |
-| --- | --- | --- | --- |
-| [sprint 1 — portfolio foundation](https://github.com/lenovo-jojo/portfolio/milestone/1) | october 12–18, 2026 | publish inspectable project evidence and a reviewer guide | open; [delivery and remaining work](sprint-1.md) |
-
-| epic | status | evidence or next step |
+| project | what it is | start here |
 | --- | --- | --- |
-| [publish evidence-backed portfolio projects](https://github.com/lenovo-jojo/portfolio/issues/1) | completed | [synthetic workbook checks](https://github.com/lenovo-jojo/portfolio/issues/3) and [reviewer guide/profile verification](https://github.com/lenovo-jojo/portfolio/issues/4) |
-| [separate the companion core from optional private content](https://github.com/lenovo-jojo/portfolio/issues/2) | open | [visible demo and playback verification](https://github.com/lenovo-jojo/portfolio/issues/6) remain |
-| catalog transfer spreadsheet review — validate transfer scope | implemented; windows verification pending | implemented work-level classification and four-column export; windows runtime verification pending |
+| [spreadsheet-review](https://github.com/lenovo-jojo/spreadsheet-review) | a desktop tool i use at work: turns a catalog-transfer report into a deduplicated claimant table. swift (macos) and powershell + excel (windows). | the [tests](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/tests/test_workbook.py) and `processWorkbook` in [claimants.swift](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/src/claimants.swift) |
+| [digital picnic](https://github.com/lenovo-jojo/critter-comforts-digi-picnic) | an interactive personal site with an in-browser ai character and a tiny desktop os. | the [live site](https://joliesarro.neocities.org/) |
+| [critter comforts: cozy cove](https://github.com/lenovo-jojo/critter-comforts-cozy-cove) | a local-first unity companion with vrm avatars, local ai chat, and speech. | the [case study](case-studies/companion-evolution.md) |
 
-the transfer rules were confirmed with the workflow owner: all yes means full, any no means partial, and blanks are ignored. the owner estimates personal daily capacity improved from roughly 5 to 20 transfers when needed; this is not a controlled benchmark or a team-wide measurement. no additional sprint has been scheduled.
+new here? take the [five-minute reviewer tour](reviewer-guide.md).
 
-## authorship
+## how i work
 
-these projects were developed with substantial ai assistance. i supplied the ideas, workflow requirements, design direction, and iteration decisions. repository notes distinguish recovered source, newly added checks, and behavior that still needs runtime verification. i do not claim team leadership, production adoption, or measured business impact without evidence.
+i plan in small, checkable pieces: epics broken into issues with acceptance criteria, changes landed through pull requests, and a short sprint write-up. [sprint 1](sprint-1.md) covers publishing this portfolio. the [issues](https://github.com/lenovo-jojo/portfolio/issues) and [milestones](https://github.com/lenovo-jojo/portfolio/milestones) are the live record.
+
+## about ai assistance
+
+these projects are built with substantial ai assistance. i bring the ideas, requirements, design direction, and decisions about what to keep; ai writes much of the code. each repo says which parts are verified and which are still prototypes.
+
+© jojo. all rights reserved; see [license](LICENSE).
