@@ -1,20 +1,19 @@
 # a quick tour for reviewers
 
-## start with a practical tool
+about five minutes, in this order.
 
-[spreadsheet-review · catalog transfer](https://github.com/lenovo-jojo/spreadsheet-review) turns a catalog-transfer report into a unique claimant table.
+## 1. a practical tool
 
-- inspect [`processworkbook`](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/src/claimants.swift) for the complete input-to-output flow.
-- inspect the [synthetic checks](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/tests/test_workbook.py) for concrete filtering and output expectations.
-- see the [successful github actions run](https://github.com/lenovo-jojo/spreadsheet-review/actions/runs/38208097315).
-- the windows source is included, but windows execution is not claimed as verified.
+[spreadsheet-review](https://github.com/lenovo-jojo/spreadsheet-review) turns a catalog-transfer report into a deduplicated claimant table. i use it in my own work.
 
-## then explore the creative work
+- read `processWorkbook` in [claimants.swift](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/src/claimants.swift) for the whole input-to-output flow.
+- read the [tests](https://github.com/lenovo-jojo/spreadsheet-review/blob/main/tests/test_workbook.py): invented workbooks, concrete expectations. they run on macos in [github actions](https://github.com/lenovo-jojo/spreadsheet-review/actions) and against the windows/excel version locally.
 
-[the neocities site](https://joliesarro.neocities.org/) demonstrates an interactive web composition. its [source snapshot and review](https://github.com/lenovo-jojo/critter-comforts-digi-picnic) explain the implementation and accessibility work still to do.
+## 2. the creative work
 
-[the companion case study](case-studies/companion-evolution.md) explains jarvis / critter comforts across iterations. it clearly marks source and runtime evidence that is still being collected.
+- [the live picnic site](https://joliesarro.neocities.org/): click the character to chat (needs a webgpu browser), then open the laptop. [source](https://github.com/lenovo-jojo/critter-comforts-digi-picnic).
+- [the companion case study](case-studies/companion-evolution.md): one idea across four forms, from a desktop pet to unity.
 
-## inspect the delivery process
+## 3. the process
 
-[epics and issues](https://github.com/lenovo-jojo/portfolio/issues), the [current sprint milestone](https://github.com/lenovo-jojo/portfolio/milestone/1), and [sprint 1 notes](sprint-1.md) show scoped outcomes and verification. this is solo, ai-assisted development; the records do not imply a team or earlier formal scrum delivery.
+[issues](https://github.com/lenovo-jojo/portfolio/issues), [milestones](https://github.com/lenovo-jojo/portfolio/milestones), and [sprint 1 notes](sprint-1.md). this is solo, ai-assisted work.

@@ -14,12 +14,20 @@
 - verified unity pose discovery without private content (18 poses) and with it installed (27 poses).
 - prepared a profile readme that links selected work and explains ai assistance.
 
-## scope remaining in this timebox
+## carried forward
 
-- verify full avatar/scene playback beyond the completed optional-content discovery checks.
-- collect demonstrable companion/browser runtime evidence.
+the timebox ended october 18 with these items not done. they move to the next sprint rather than being marked complete:
+
+- verify full avatar/scene playback beyond the optional-content discovery checks.
+- collect demonstrable companion/browser runtime evidence (a recorded demo).
 - check neocities keyboard navigation, focus behavior, and narrow-screen layout.
-- verify the windows claimants implementation on windows with desktop excel.
+
+## follow-up: october 23 cleanup
+
+- windows claimants version: the automated tests now run against it with desktop excel 16 and pass. the popup and send to shortcut are still checked by hand.
+- column positions in the claimants tool are configurable through a settings file.
+- third-party fan models were removed from the companion repo and are now imported locally.
+- all repositories carry a license notice.
 
 ## review notes
 
@@ -29,4 +37,4 @@ this is solo delivery, with ai assistance. it does not imply a scrum team, previ
 
 recovering original files provided stronger evidence than reconstructing projects from memory. compilation exposed a real platform mismatch. the next process improvement is to start each project with reproducible checks and clearly separate local working content from material intended for publication.
 
-sprint remains open; the remaining scope is not marked done.
+sprint 1 is closed. unfinished items are listed under carried forward.
